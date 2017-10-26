@@ -1,0 +1,35 @@
+.meniu ul, footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6e060e;
+}
+
+.meniu li {
+    float: right;
+}
+
+.meniu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.meniu li a:hover {
+    background-color: #111111;
+}
+
+#kairen {
+    float: left;
+}
+
+.lygiuoti_kairen {
+    float: left;
+}
+
+.lygiuoti_desinen {
+    float: right;
+}
