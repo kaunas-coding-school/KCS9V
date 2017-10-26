@@ -1,0 +1,42 @@
+
+
+.menu ul , footer{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.menu li {
+    float: right;
+    line-height:50px;
+
+}
+.menu .fl {
+    float: left;
+}
+
+.menu a{
+    line-height:100px;
+    display: block;
+    vertical-align: middle;
+}
+
+.fr {
+    float: right;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    background-color: #334433;
+}
+
+.menu li a:hover {
+    background-color: #111111;
+}
+
