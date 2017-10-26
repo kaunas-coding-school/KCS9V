@@ -1,0 +1,41 @@
+.meniu ul, footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+
+}
+
+.meniu li {
+    float: right;
+}
+
+#lygiavimas1{
+     float: left;
+ }
+
+#lygiavimas2{
+    height: 20px;
+    padding: 40px;
+}
+
+.meniu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.meniu li a:hover {
+    background-color: #111111;
+}
+
+.lygiuoti_kairėn{
+    float: left;
+}
+
+.lygiuoti_dešinėn{
+    float: right;
+}
