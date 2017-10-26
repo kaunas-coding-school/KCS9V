@@ -30,4 +30,8 @@ Tautvydas Dulskis
 =======
 Justas Grekavièius
 Saulius
+<<<<<<< HEAD
 >>>>>>> 7a8f72102b48479c950c52fc309c09b76770bd31
+=======
+Vytautas
+>>>>>>> 1dc43715d52f27610ac92ce2e6bf1235d71c6967
