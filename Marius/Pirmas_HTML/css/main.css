@@ -12,7 +12,9 @@
 }
 
 #lygiavimas1{
-     float: left;
+    float: left;
+    display: block;
+
  }
 
 #lygiavimas2{
