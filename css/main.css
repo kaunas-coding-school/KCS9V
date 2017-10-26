@@ -31,3 +31,13 @@
 .lygiuoti_desinen {
     float: right;
 }
+.logo_wraper {
+    background-color: #333333;
+}
+.logo {
+    display: block;
+}
+.logo_wraper, .meniu {
+    width: 50%;
+    display: inline;
+}
