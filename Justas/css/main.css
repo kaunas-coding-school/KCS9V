@@ -8,6 +8,9 @@
 
 .meniu li {
     float: right;
+    margin:  auto;
+    width: 20px;
+    border: 2px solid black;
 }
 
 .meniu li a {
@@ -21,6 +24,9 @@
 .meniu li a:hover {
     background-color: #111111;
 }
+.logo{
+    display:block;
+}
 
 #kairen {
     float: left;
@@ -32,4 +38,21 @@
 
 .lygiuoti_desinen {
     float: right;
+}
+
+.meniu {
+    display: table;
+    height: 10%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}
+
+.logo_wrapper{
+    background-color: #6e060e;
+}
+
+.logo_wrapper, .meniu{
+    width: 50%;
+    display: inline;
 }
