@@ -22,6 +22,8 @@
     padding: 40px;
 }
 
+
+
 .meniu li a {
     display: block;
     color: white;
@@ -41,3 +43,21 @@
 .lygiuoti_dešinėn{
     float: right;
 }
+
+.container{
+    display: inherit;
+}
+.container>.cont{
+    width: 1200px;
+    margin: 0 auto;
+}
+.container>sidebar{
+    width: 30%;
+}
+.container .content{
+    width: 70%;
+}
+
+
+
+
