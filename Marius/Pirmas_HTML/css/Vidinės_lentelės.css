@@ -1,0 +1,16 @@
+#lentelė_kairėj{
+
+    margin-right: 50px;
+}
+#lentelė_dešinėj{
+    margin-left: 150px;
+}
+.vidinis_tekstas{
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.blokas{
+    display: block;
+}

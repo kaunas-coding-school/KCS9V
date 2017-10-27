@@ -1,0 +1,34 @@
+.meniu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    height: 116px;
+}
+
+.meniu li {
+    float: right;
+}
+.meniu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    text-decoration: none;
+}
+
+
+#lygiavimas1{
+    float: right;
+    display: block;
+
+}
+
+#lygiavimas2{
+    float: left;
+}
+
+.paveikslėlio_pastūmimas{
+    margin-left: 15px;
+}

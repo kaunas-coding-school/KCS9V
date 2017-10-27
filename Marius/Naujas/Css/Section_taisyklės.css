@@ -1,0 +1,22 @@
+.konteineris{
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.konteineris .meniu{
+   width: 25%;
+}
+.konteineris .info{
+    width: 70%;
+}
+#išlygiuoja1{
+    float: left;
+    display: block;
+}
+#išlygiuoja2{
+    float: right;
+    display: block;
+}
+
