@@ -1,7 +1,7 @@
 .biografija .profile_pic {
     float: left;
     border: 2px solid black;
-    width: 250px;
+    width: 300px;
     margin: 0 20px 0 0;
 }
 
@@ -40,7 +40,8 @@
 }
 
 .freetime div:first-child {
-    width: 40%;
+    width: 39%;
+    padding-right: 1%;
 }
 
 .freetime div:nth-child(2) {
@@ -48,11 +49,12 @@
 }
 
 .gallery{
-
+    margin-top: 20px;
 }
 
 .gallery img{
     border: 1px solid black;
     width: 22%;
-
+    margin: 0 8px 8px 8px;
+    float:left;
 }
