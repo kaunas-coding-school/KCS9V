@@ -16,6 +16,10 @@ body{
     height: 100%;
 }
 
+footer .footer_nuorodos{
+    width: 100%;
+}
+
 .meniu li {
     float: right;
     margin: auto;
