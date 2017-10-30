@@ -1,0 +1,51 @@
+.sidebar h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sidebar hr {
+    width: 90%;
+}
+
+.gebejimai .progress_bar {
+    width: 100px;
+    height: 20px;
+    float: left;
+    background-color: lightgray;
+    border: 1px solid dimgray;
+}
+
+.gebejimai span {
+    float: left;
+    width: 100px;
+    margin-top: 4px;
+}
+
+.gebejimai li {
+    clear: both;
+    display: flex;
+    margin: 5px 0;
+}
+.gebejimai .progress {
+    height: 20px;
+    background-color: rgba(129, 121, 131, 0.51);
+}
+#c_sharp {
+    width: 50%;
+}
+#java {
+    width: 30%;
+}
+#html {
+    width: 90%;
+}
+#css {
+    width: 88%;
+}
+#javasceript {
+    width: 75%;
+}
+#sql {
+    width: 5%;
+}
