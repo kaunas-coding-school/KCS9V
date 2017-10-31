@@ -1,0 +1,20 @@
+.tabcontent{
+    dislay: none;
+    padding: 6px 12px;
+    border: 1px solid black;
+    border-top:none;
+}
+
+div.tab{
+    overflow:hidden;
+    border: 1px solid darkred;
+    background-color: lightyellow;
+}
+div.tab button{
+    background-color: inherit;
+    border:none;
+    cursor:pointer;
+    padding: 6px 9px;
+    transition: 0.3s;
+}
+
