@@ -1,0 +1,60 @@
+.biografija .profile_pic {
+    float: left;
+    border: 2px solid black;
+    width: 300px;
+    margin: 0 20px 0 0;
+}
+
+.biografija .bio {
+
+}
+
+.biografija h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+
+.freetime {
+    display: inline-block;
+    height: 220px;
+    margin: 40px 0;
+}
+
+.freetime > div {
+    float: left;
+    height: inherit;
+}
+
+.freetime > div span {
+    overflow: auto;
+    display: block;
+    height: inherit;
+}
+
+.freetime > div h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    width: 90%;
+}
+
+.freetime div:first-child {
+    width: 39%;
+    padding-right: 1%;
+}
+
+.freetime div:nth-child(2) {
+    width: 60%;
+}
+
+.gallery{
+    margin-top: 20px;
+}
+
+.gallery img{
+    border: 1px solid black;
+    width: 22%;
+    margin: 0 8px 8px 8px;
+    float:left;
+}
