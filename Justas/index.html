@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/profilis.css">
     <link rel="stylesheet" href="css/gebejimai.css">
 
+
 </head>
 <body>
 <header>
@@ -15,6 +16,8 @@
         <img class="logo fl" src="img/endless_endless___the_moebius_strip_by_horemweb-d8ptg24.png"/>
     </div>
     <div class="meniu lygiuoti_desinen">
+
+
         <ul>
             <li>
                 <a href="contacts.html"> Kontaktai</a>
@@ -100,15 +103,37 @@
         <div class="antras lygiuoti_kairen">
             <div class="wrapper">
                 <div class="biografija">
-                    <img class="profile_pic" src="https://scontent.fkun1-1.fna.fbcdn.net/v/t1.0-0/p206x206/19554330_1859300027417064_6904924037303583825_n.jpg?oh=7e9b0a2ba46bedc9433632fec1368b49&oe=5AA8EBC8"/>
+                    <img class="profile_pic"
+                         src="https://scontent.fkun1-1.fna.fbcdn.net/v/t1.0-0/p206x206/19554330_1859300027417064_6904924037303583825_n.jpg?oh=7e9b0a2ba46bedc9433632fec1368b49&oe=5AA8EBC8"/>
 
                     <div class="bio">
                         <h2>
                             Justas Grekavičius
                         </h2>
-                        <span>
+                        <div class="tab">
+                            <button class="tablinks" onclick="openTab(event, 'Tab1')">Tab1</button>
+                            <button class="tablinks" onclick="openTab(event, 'Tab2')">Tab2</button>
+                            <button class="tablinks" onclick="openTab(event, 'Tab3')">Tab3</button>
+                        </div>
+                        <div id="Tab1" class="tabcontent">
+                            <h4>Autobiografija</h4>
+
+                            <span>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum et leo lobortis, ut rutrum leo molestie. Sed fringilla felis vitae malesuada pharetra. Fusce iaculis, dolor sed viverra finibus, enim urna tincidunt nisl, ac luctus dolor dolor sit amet massa. Curabitur ornare sed ante vel viverra. Aenean ultrices consequat tortor, at cursus massa consequat quis. Fusce euismod fringilla quam, sagittis sodales mi auctor nec. Cras molestie urna dolor, sit amet porta lacus pellentesque in. Nullam facilisis rutrum est, non egestas urna feugiat ut. Aliquam congue, velit vel luctus ultricies, elit metus elementum nisl, nec faucibus ex purus vitae lectus. Nam a metus et justo finibus porta. Nam lorem dolor, dictum vitae vulputate ac, iaculis eget nibh. Vestibulum a sem tincidunt, eleifend augue id, accumsan enim. In ornare gravida urna, eu maximus sapien auctor vitae. Vestibulum eget sollicitudin quam. Donec eget sapien nec mi porttitor finibus.
                     </span>
+                        </div>
+                        <div id="Tab2" class="tabcontent">
+                            <h4>Tab2</h4>
+                            <span>
+                                Bandomasis tekstas patikrinti, ar veikia Tab2 :)
+                            </span>
+                        </div>
+                        <div id="Tab3" class="tabcontent">
+                            <h4>Tab3</h4>
+                            <span>
+                                Bandomasis tekstas patikrinti, kad veikia Tab3 :D
+                            </span>
+                        </div>
                     </div>
                 </div>
 
@@ -116,6 +141,7 @@
                     <div>
                         <h3>Pomėgiai</h3>
                         <span>
+                            <img id="myImage" src="img/pic_bulboff.gif" style="width:100px" onclick="toggleLempa()">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum et leo lobortis, ut rutrum leo molestie. Sed fringilla felis vitae malesuada pharetra. Fusce iaculis, dolor sed viverra finibus, enim urna tincidunt nisl, ac luctus dolor dolor sit amet massa. Curabitur ornare sed ante vel viverra. Aenean ultrices consequat tortor, at cursus massa consequat quis. Fusce euismod fringilla quam, sagittis sodales mi auctor nec. Cras molestie urna dolor, sit amet porta lacus pellentesque in. Nullam facilisis rutrum est, non egestas urna feugiat ut. Aliquam congue, velit vel luctus ultricies, elit metus elementum nisl, nec faucibus ex purus vitae lectus. Nam a metus et justo finibus porta. Nam lorem dolor, dictum vitae vulputate ac, iaculis eget nibh. Vestibulum a sem tincidunt, eleifend augue id, accumsan enim. In ornare gravida urna, eu maximus sapien auctor vitae. Vestibulum eget sollicitudin quam. Donec eget sapien nec mi porttitor finibus.
                         </span>
                     </div>
@@ -129,16 +155,16 @@
                 </div>
                 <div class="gallery">
                     <div>
-                        <img src="https://scontent.fkun1-1.fna.fbcdn.net/v/t1.0-0/p206x206/19554330_1859300027417064_6904924037303583825_n.jpg?oh=7e9b0a2ba46bedc9433632fec1368b49&oe=5AA8EBC8"/>
+                        <img src="http://www.peizazainuotraukose.lt/wp-content/uploads/2017/06/DGF_9954.jpg"/>
                     </div>
                     <div>
-                        <img src="https://scontent.fkun1-1.fna.fbcdn.net/v/t1.0-0/p206x206/19554330_1859300027417064_6904924037303583825_n.jpg?oh=7e9b0a2ba46bedc9433632fec1368b49&oe=5AA8EBC8"/>
+                        <img src="http://laisvydas.lt/wp-content/uploads/2016/09/Auk%C5%A1taitijos-nacionalinis-parkas.jpg"/>
                     </div>
                     <div>
-                        <img src="https://scontent.fkun1-1.fna.fbcdn.net/v/t1.0-0/p206x206/19554330_1859300027417064_6904924037303583825_n.jpg?oh=7e9b0a2ba46bedc9433632fec1368b49&oe=5AA8EBC8"/>
+                        <img src="https://s2.15min.lt/images/photos/2015/10/25/original/ruduo-lietuvoje-trispalve-nusidaze-medziai-silutes-rajone-562ceca2d39bc.jpg"/>
                     </div>
                     <div>
-                        <img src="https://scontent.fkun1-1.fna.fbcdn.net/v/t1.0-0/p206x206/19554330_1859300027417064_6904924037303583825_n.jpg?oh=7e9b0a2ba46bedc9433632fec1368b49&oe=5AA8EBC8"/>
+                        <img src="http://www.grazitumano.lt/w/images/8/88/Platumos_102.jpg?phpMyAdmin=f1e7db19481c554765831f5fc10722b3"/>
                     </div>
                 </div>
 
@@ -156,5 +182,8 @@
         <span class="lygiuoti_kairen" style="color: ghostwhite;">&copy; Visos teises &nbsp;saugomos</span>
     </div>
 </footer>
+
+<script src="js/JustoJS.js"></script>
+<script src="js/tabs.js"></script>
 </body>
 </html>
