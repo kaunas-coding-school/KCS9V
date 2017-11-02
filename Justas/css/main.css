@@ -22,7 +22,7 @@ footer .footer_nuorodos{
 
 .meniu li {
     float: right;
-    margin: auto;
+    margin: auto 20px;
 }
 
 .meniu li a {
@@ -64,7 +64,7 @@ footer .footer_nuorodos{
 }
 
 .container > .cont {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     display: table;
 }
