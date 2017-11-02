@@ -1,20 +1,32 @@
-.tabcontent{
-    dislay: none;
-    padding: 6px 12px;
-    border: 1px solid black;
-    border-top:none;
+
+div.tab {
+    overflow: hidden;
+    border-right: none;
+    border-left: none;
+    background-color: #6e060e;
 }
 
-div.tab{
-    overflow:hidden;
-    border: 1px solid darkred;
-    background-color: lightyellow;
-}
-div.tab button{
+div.tab button {
     background-color: inherit;
-    border:none;
-    cursor:pointer;
-    padding: 6px 9px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 6px 6px;
     transition: 0.3s;
+    color:white;
 }
 
+.tabcontent {
+    dislay: none;
+    padding: 15px 3px;
+}
+
+div.tab button:hover {
+    background-color: white;
+    color: #6e060e;
+}
+
+div.tab button.active{
+    background-color: forestgreen;
+    color: #6e060e;
+}
