@@ -1,20 +1,38 @@
-.gebejimai{
+.gebejimai {
 
 }
 
-.gebejimai .progress_bar{
-
-    width: 100px;
+.gebejimai .progress_bar {
+    width: 60%;
     height: 20px;
-    float: left;
-    background-color: lightsteelblue;
-    border: 1px solid black;
+    position: relative;
+    background: lightsteelblue;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    padding: 5px;
+    box-shadow: inset 0 -1px 1px midnightblue;
+
 }
 
-.gebejimai span{
+.progress_bar > div {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+    inset 0 -2px 6px rgba(154, 77, 77, 0.9);
+    position: relative;
+    overflow: hidden;
+}
+
+.gebejimai span {
     float: left;
-    width:100px;
-    margin:1px;
+    width: 100px;
+    margin: 1px;
+    padding-top: 1%;
 }
 
 .gebejimai li {
@@ -22,36 +40,41 @@
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 25px;
-    clear:both;
+    clear: both;
     display: flex;
     border: 1px solid limegreen;
 }
 
-.gebejimai .progress{
+.gebejimai .progress {
     height: 20px;
     background-color: salmon;
+    text-align:center;
 }
 
-#c_sharp{
-    width:50%;
-}
-#java{
-    width:35%;
+#c_sharp {
+    width: 50%;
 }
 
-#html{
-    width:40%;
+#java {
+    width: 35%;
 }
 
-#css{
-    width:40%;
+#html {
+    width: 40%;
 }
-#jscript{
-    width: 10%;
+
+#css {
+    width: 40%;
 }
-#sql{
+
+#jscript {
+    width: 20%;
+}
+
+#sql {
     width: 25%;
 }
-#unity3d{
+
+#unity3d {
     width: 50%;
 }
