@@ -1,10 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="formApp">
 <head>
     <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
     <title>Antras puslapis</title>
+    <script src="js/angular/mainApp.js"></script>
+    <script src="js/angular/formaController.js"></script>
 </head>
 <body>
-<h1>Antrasis puslapis.</h1>
+    <div class="container" ng-controller="formaController as fm">
+
+        <div ng-repeat="zinute in fm.zinutes">
+            <span class="">{{zinute.vardas}} <{{zinute.pastas}}> - {{zinute.zinute}}</span>
+        </div>
+
+        <h1>Forma</h1>
+        <input type="text" class="input-field" ng-model="fm.vardas" placeholder="Vardas"/>
+        <input type="email" class="input-field" ng-model="fm.pastas" placeholder="Paštas"/>
+        <textarea ng-model="fm.zinute" class="input-field" placeholder="Zinutes tekstas"></textarea>
+        <input type="button" class="btn" value="Patvirtinti" ng-click="fm.postData()">
+    </div>
 </body>
 </html>
