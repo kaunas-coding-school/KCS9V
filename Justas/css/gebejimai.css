@@ -42,7 +42,7 @@
     padding-left: 25px;
     clear: both;
     display: flex;
-    border: 1px solid limegreen;
+    /*border: 1px solid limegreen;*/
 }
 
 .gebejimai .progress {

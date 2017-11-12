@@ -1,5 +1,5 @@
 header {
-    height: 100px;
+    height: 50px;
 }
 
 body{
@@ -22,7 +22,7 @@ footer .footer_nuorodos{
 
 .meniu li {
     float: right;
-    margin: auto 20px;
+    margin: auto;
 }
 
 .meniu li a {
@@ -72,14 +72,14 @@ footer .footer_nuorodos{
 .container .pirmas {
     width: 24%;
     height: 100%;
-    border: 1px dashed black;
+    /*border: 1px dashed black;*/
     border-right: 2px solid black;
 }
 
 .cont .antras {
     width: 74%;
     height: 100%;
-    border: 1px dashed orangered;
+    /*border: 1px dashed orangered;*/
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -90,7 +90,7 @@ footer .footer_nuorodos{
     padding-bottom: 10px;
     text-align: center;
     font-weight: bold;
-    border: 1px solid aquamarine;
+    /*border: 1px solid aquamarine;*/
 }
 
 .wrapper {
@@ -101,9 +101,3 @@ footer .footer_nuorodos{
     width: 90%;
 }
 
-/*
-.progress_bar{
-    height: 30px;
-    width: 100px;
-    border: 1px solid black;
-}*/

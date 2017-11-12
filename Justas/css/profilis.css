@@ -12,13 +12,14 @@
 .biografija h2 {
     font-size: 25px;
     margin-bottom: 20px;
-
+    padding-top: 10px;
+    text-align: justify;
 }
 
 .freetime {
     display: inline-block;
     height: 220px;
-    margin: 20px 0;
+    margin: 15px 0 25px 50px;
 }
 
 .freetime > div {
@@ -30,18 +31,20 @@
     overflow: auto;
     display: block;
     height: inherit;
+    width: 95%;
 }
 
 .freetime > div h3 {
     font-size: 20px;
     margin-bottom: 10px;
     font-weight: bold;
-    width: 90%;
+    border-bottom: 2px solid darkslategray;
+    width: 95%;
 }
 
 .freetime div:first-child {
-    width: 39%;
-    padding-right: 1%;
+    width: 40%;
+    /*padding-right: 1%;*/
 }
 
 .freetime div:nth-child(2) {
@@ -57,4 +60,8 @@
     width: 22.5%;
     margin: 0 8px 8px 8px;
     float:left;
+}
+
+.lygiavimas{
+    text-align: justify;
 }
